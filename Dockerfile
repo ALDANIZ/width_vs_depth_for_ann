@@ -5,7 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # CPU versiyonu için pip install
-# RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 
 # Veya requirements.txt'den kurulum
 RUN pip install -r requirements.txt
