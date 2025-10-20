@@ -1,5 +1,4 @@
 numpy==1.24.3
-torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
 gradio==4.19.2
 plotly==5.18.0
 pandas==2.0.3
